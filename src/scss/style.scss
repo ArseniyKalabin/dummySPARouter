@@ -10,10 +10,15 @@
         display: flex;
         justify-content: center;
         a {
-            padding: 10px 10px 10px 30px;
+            padding: 10px 10px 10px 35px;
             margin-right: 20px;
             background: url('../img/menu-icon.png') left no-repeat;
             background-size: contain;
+            text-decoration: none;
+            color: #313131;
+        }
+        a:hover, a:active{
+            color: #6bcc84;
         }
     }
     section{
