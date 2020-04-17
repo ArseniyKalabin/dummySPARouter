@@ -1,0 +1,25 @@
+@import 'reset';
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+#root {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    nav {
+        display: flex;
+        justify-content: center;
+        a {
+            padding: 10px 10px 10px 30px;
+            margin-right: 20px;
+            background: url('../img/menu-icon.png') left no-repeat;
+            background-size: contain;
+        }
+    }
+    section{
+        h1 {
+            margin: 30px;
+            font-size: 2em;
+        }
+    }   
+}
